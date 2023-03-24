@@ -1,0 +1,11 @@
+.zakat {
+    transition: 0.5s ease;
+    border: 1px solid #84cb25;
+}
+
+.zakat:hover {
+    box-shadow: 8px -8px 0px -2px #84cb25;
+    background-color: white;
+    color: #84cb25;
+    border: 1px solid #84cb25;
+}

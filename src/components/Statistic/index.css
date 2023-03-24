@@ -1,0 +1,15 @@
+.bg-gradient {
+    transition: all 0.2s ease-in-out;
+    background: rgb(0, 147, 107);
+    background: linear-gradient(
+        0deg,
+        rgba(0, 147, 107, 1) 14%,
+        rgba(4, 190, 140, 1) 62%
+    );
+}
+
+.bg-gradient:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 9px 193px -31px rgba(63, 161, 124, 0.71);
+    border: 1px solid rgba(63, 161, 124, 0.71);
+}
